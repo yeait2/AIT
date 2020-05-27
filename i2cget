@@ -6,8 +6,8 @@ sudo i2cget -y 2　0x48 0x00
 
 
 
-sudo　i2cget -y 2 0x48 0x00
-sudo i2cget　-y 2 0x48 0x00
-sudo i2cget -y　2 0x48 0x00
-sudo i2cget -y 2　0x48 0x00
-sudo i2cget -y 2 0x48　0x00
+sudo　i2cget -y 2 0x48 0x00　　　<- command not found
+sudo i2cget　-y 2 0x48 0x00　　　<- command not found
+sudo i2cget -y　2 0x48 0x00　　　<- Chip address out of range
+sudo i2cget -y 2　0x48 0x00　　　<- I2C bus name doesn't match any bus present!
+sudo i2cget -y 2 0x48　0x00　　　<- Chip address is not a number

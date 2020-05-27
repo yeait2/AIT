@@ -1,0 +1,1 @@
+sudo i2cget –y 2 0x40 0xFE
